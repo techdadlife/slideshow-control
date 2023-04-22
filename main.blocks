@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="3hUg-|e4FrR1.A%fU^GO" x="0" y="0"><statement name="HANDLER"><block type="keyboard service" id="jz+xV3AtSrzo((*.rY^3"><next><block type="basic_show_icon" id="gUq*PGBLo(N?`3_Ka-C8"><field name="i">IconNames.Yes</field></block></next></block></statement></block><block type="device_button_event" id="U`2sK{TC7Q`CzEk]]MJx" x="6" y="232"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="send string" id="@0jT6YBJjxnH46QP^J=5"><value name="keys"><shadow type="text"><field name="TEXT"></field></shadow><block type="key_conv" id="|mMVFSodeA4/;H;,+~wd"><field name="key">keyboard._Key.left</field></block></value><next><block type="device_show_leds" id="o#KC5@k:o4H{MkqQLYe}"><field name="LEDS">`
+        . . # . . 
+        . # # # # 
+        # # # # # 
+        . # # # # 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="V`}aT@emv.#bbCN%[k;E" x="259" y="233"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="send string" id="4iA:6vKp{jsW$jA%Aw9F"><value name="keys"><shadow type="text"><field name="TEXT"></field></shadow><block type="key_conv" id="bS@[g|9]ArY,63j^)BiI"><field name="key">keyboard._Key.right</field></block></value><next><block type="device_show_leds" id="5|~bF0_};4!`}VCZ#OoQ"><field name="LEDS">`
+        . . # . . 
+        # # # # . 
+        # # # # # 
+        # # # # . 
+        . . # . .
+        `</field></block></next></block></statement></block></xml>
